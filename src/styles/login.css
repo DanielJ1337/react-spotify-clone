@@ -1,0 +1,28 @@
+:root {
+  --spotifyGreen: #1db954;
+  --spotifyBlack: #191414;
+}
+
+.login {
+  height: 100vh;
+  background-color: var(--spotifyBlack);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.login__button {
+  color: #fff !important;
+  font-weight: bold !important;
+  background-color: var(--spotifyGreen) !important;
+  border-radius: 99px !important;
+  padding: 0.75rem !important;
+  text-decoration: none;
+}
+
+.login__logo {
+  height: 150px;
+  background-color: var(--spotifyBlack);
+}

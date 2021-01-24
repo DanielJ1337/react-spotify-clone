@@ -1,0 +1,29 @@
+.sidebar {
+  height: 100vh;
+  flex: 0.2;
+  color: #fff;
+  padding: 0 10px;
+  min-width: 230px;
+  background-color: #040404;
+  position: fixed;
+  z-index: 2;
+}
+
+.sidebar__logo {
+  object-fit: contain;
+  width: 130px;
+  padding: 2rem 0.75rem 1rem;
+  align-items: center;
+}
+
+.sidebar__title {
+  font-size: 0.75rem;
+  padding: 0.75rem;
+  color: grey;
+}
+
+.sidebar__header > hr {
+  width: 90%;
+  border-color: grey;
+  margin: 10px auto 1rem;
+}
