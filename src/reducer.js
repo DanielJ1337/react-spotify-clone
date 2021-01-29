@@ -3,9 +3,9 @@ export const initialState = {
   playlists: [],
   playing: false,
   item: null,
-  spotify: null, 
-  discover_weekly: null, 
-  top_artists: null
+  spotify: null,
+  discover_weekly: null,
+  top_artists: null,
   token: null,
 };
 
