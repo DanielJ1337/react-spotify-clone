@@ -3,9 +3,10 @@ export const initialState = {
   playlists: [],
   playing: false,
   item: null,
-  // token: null,
-  token:
-    "BQBlyo5GnU7jmW8eJXlnnHkMrQupHPd6sEAUkvraOMWUWjt0vc…KFOQeVoc7WrcMFok_dXfnF0-yArt8mjOnpiaLAS3k0UhtQOer",
+  spotify: null, 
+  discover_weekly: null, 
+  top_artists: null
+  token: null,
 };
 
 export const reducer = (state, action) => {
