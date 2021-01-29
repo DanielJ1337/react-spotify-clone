@@ -11,6 +11,9 @@ const scopes = [
   "user-modify-playback-state",
 ];
 
+// exports the token from the url filed inside the browser
+// the app needs the token for authorization purposes
+
 export const getTokenFromUrl = () => {
   return window.location.hash
     .substring(1)
@@ -18,7 +21,7 @@ export const getTokenFromUrl = () => {
     .reduce((initial, item) => {
       var parts = item.split("=");
       initial[parts[0]] = decodeURIComponent(parts[1]);
-
+      console.log(initial);
       return initial;
     }, {});
 };

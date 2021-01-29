@@ -25,7 +25,10 @@ const Sidebar = () => {
         <hr />
 
         {playlists?.items?.map((playlist) => (
-          <SidebarOption title={playlist.name} />
+          <SidebarOption
+            id={new Date().getTime().toString()}
+            title={playlist.name}
+          />
         ))}
       </div>
     </div>

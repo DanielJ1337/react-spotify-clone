@@ -11,11 +11,11 @@ const Player = ({ spotify }) => {
         <Sidebar />
         {/* Sidebar */}
         {/* Body */}
-        <Body />
+        <Body spotify={spotify} />
       </div>
       <div className="player__footer">
         {/* Footer */}
-        <Footer />
+        <Footer spotify={spotify} />
       </div>
     </div>
   );

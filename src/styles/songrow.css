@@ -1,13 +1,11 @@
 .songrow {
   margin-left: 20px;
-  padding: 1rem;
+  padding: 0.5rem 1rem;
   display: grid;
-  justify-content: end;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: 0.1fr 0.1fr 0.65fr 1fr 0.5fr 0.35fr;
+  gap: 5px;
   align-items: center;
-  z-index: 100;
   color: #fff;
-  /* background: linear-gradient(rgb(49, 51, 48), rgb(15, 15, 15)); */
 }
 
 .songrow:hover {
@@ -27,11 +25,7 @@
   color: lightgrey;
 }
 
-.songrow__albumName {
-}
-
 .songrow__album {
-  justify-content: end;
   height: 40px;
   width: 40px;
 }
