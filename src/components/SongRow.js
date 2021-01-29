@@ -1,9 +1,14 @@
 import React from "react";
 import "../styles/songrow.css";
 
-const SongRow = ({ track = "test", playlist }) => {
+const SongRow = ({ track, playSong }) => {
   return (
-    <div className="songrow">
+    <div
+      className="songrow"
+      onClick={() => {
+        playSong(track.id);
+      }}
+    >
       <div className="songrow__number">1</div>
       <img className="songrow__album" src={track?.album.images[0].url} alt="" />
       <div className="songrow__info">
